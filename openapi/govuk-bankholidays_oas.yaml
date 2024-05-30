@@ -1,0 +1,17 @@
+openapi: 3.0.3
+info:
+  title: Gov UK Bank holiday API
+  description: List of Bank holidays in England and Wales, Scotland and Northern Ireland
+  version: 1.0.0
+servers:
+  - url: https://www.gov.uk
+paths:
+  /bank-holidays.json:
+    get:
+      summary: bank-holiday
+      description: bank-holiday
+      operationId: bankHoliday
+      responses:
+        "200":
+          description: "A successful response providing a list of bank holidays in England and Wales, Scotland and Northern Ireland"
+tags: []

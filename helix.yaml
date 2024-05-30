@@ -1,9 +1,9 @@
-name: My Example Helix App
-description: A selection of assistants to help me do stuff.
+name: UK Bank holiday
+description: An assistant that tells me when the next bank holiday is
 assistants:
-- name: Bitcoin price API
+- name: UK Bank holiday
   apis:
-    - name: Coindesk API
-      description: Gets the current Bitcoin price in USD, GPB and EUR.
-      url: https://api.coindesk.com/v1
-      schema: ./openapi/coindesk.yaml
+    - name: UK Bank holiday
+      description: List of Bank holidays in England and Wales, Scotland and Northern Ireland.
+      url: https://www.gov.uk
+      schema: ./openapi/govuk-bankholidays_oas.yaml

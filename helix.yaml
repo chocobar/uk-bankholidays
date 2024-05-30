@@ -1,5 +1,5 @@
 name: UK Bank holiday
-description: An assistant that tells me when the next bank holiday is
+description: An assistant that knows about Bank holidays in England and Wales, Scotland and Northern Ireland
 assistants:
 - name: UK Bank holiday
   apis:
